@@ -1,0 +1,52 @@
+/* Estilos para la barra de navegación */
+.brand-logo{
+	margin-left: 15px;
+}
+
+.nav-wrapper{
+	background-color: #00796B;
+}
+
+/* Estilos para todo el cuerpo de la página */
+html, body{
+	background-color: #ffffff;
+}
+
+/* Estilos para la hero image */
+
+.hero-image{
+	background-image: url('../image/terapia.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.hero-image, .text-hero{
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.text-second-hero{
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+/* Estilos de la parte de servicios */
+
+.accent-color{
+	background-color: #009688;
+	width: 100%;
+	height: 80vh;
+}

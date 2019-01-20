@@ -10,6 +10,7 @@
 /* Estilos para todo el cuerpo de la página */
 html, body{
 	background-color: #ffffff;
+	font-family: 'sans-serif', 'Helvetica';
 }
 
 /* Estilos para la hero image */
@@ -48,5 +49,32 @@ html, body{
 .accent-color{
 	background-color: #009688;
 	width: 100%;
-	height: 80vh;
+	height: 70vh;
+}
+
+#servicios{
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	padding: 2px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+#servicios, h1{
+	font-size: 1.5em;
+}
+
+/* Estilos parte de testimonios */
+
+#testimonios{
+	background-color: #ffffff;
+	width: 100%;
+	height: 70vh;
+}
+
+/* Estilos para el footer */
+
+.page-footer{
+	background-color: #00796B;
 }
